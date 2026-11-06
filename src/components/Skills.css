@@ -1,7 +1,7 @@
 .section-alt {
-    background: #0d1017;
-    border-top: 1px solid rgba(255, 255, 255, .035);
-    border-bottom: 1px solid rgba(255, 255, 255, .035);
+    background: var(--surface-alt);
+    border-top: 1px solid var(--subtle-line);
+    border-bottom: 1px solid var(--subtle-line);
 }
 
 .skill-groups {
@@ -14,7 +14,7 @@
     padding: 26px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: #11151d;
+    background: var(--surface);
 }
 
 .skill-group-head {
@@ -31,7 +31,7 @@
     display: grid;
     place-items: center;
     color: var(--accent);
-    background: rgba(190, 255, 92, .09);
+    background: var(--accent-wash);
     border-radius: 9px;
 }
 
@@ -55,11 +55,11 @@
 
 .skill-chips span {
     padding: 8px 11px;
-    border: 1px solid #2a303b;
+    border: 1px solid var(--line);
     border-radius: 6px;
-    color: #c7ccd5;
+    color: var(--copy-soft);
     font-size: .73rem;
-    background: #171c25;
+    background: var(--surface-raised);
 }
 
 .skills-footnote {

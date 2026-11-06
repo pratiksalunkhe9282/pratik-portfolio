@@ -4,7 +4,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(ellipse at 78% 48%, rgba(190, 255, 92, .09), transparent 34%), radial-gradient(ellipse at 12% 15%, rgba(84, 105, 255, .08), transparent 30%);
+    background: radial-gradient(ellipse at 78% 48%, rgba(var(--accent-rgb), .09), transparent 34%), radial-gradient(ellipse at 12% 15%, var(--hero-halo), transparent 30%);
 }
 
 .hero-grid {
@@ -21,7 +21,7 @@
     align-items: center;
     gap: 9px;
     padding: 8px 12px;
-    border: 1px solid rgba(190, 255, 92, .22);
+    border: 1px solid var(--accent-border);
     border-radius: 99px;
     color: var(--accent);
     font: .62rem var(--mono);
@@ -59,7 +59,7 @@
     margin: 24px 0 15px;
     font-size: clamp(1.05rem, 2vw, 1.4rem);
     font-weight: 600;
-    color: #d9dce5;
+    color: var(--copy-strong);
 }
 
 .hero h2 i {
@@ -100,7 +100,7 @@
 }
 
 .button-primary {
-    color: #11150b;
+    color: var(--button-text);
     background: var(--accent);
 }
 
@@ -144,10 +144,10 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-    border: 1px solid rgba(190, 255, 92, .35);
+    border: 1px solid var(--accent-border);
     border-radius: 48% 48% 22px 22px;
-    background: linear-gradient(145deg, #222a27, #11151a 65%);
-    box-shadow: 0 35px 100px rgba(0, 0, 0, .45);
+    background: var(--hero-profile-bg);
+    box-shadow: 0 35px 100px var(--profile-shadow);
 }
 
 .profile-frame img {
@@ -163,7 +163,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at 50% 35%, rgba(190, 255, 92, .18), transparent 38%);
+    background: radial-gradient(circle at 50% 35%, rgba(var(--accent-rgb), .18), transparent 38%);
 }
 
 .profile-placeholder span {
@@ -182,7 +182,7 @@
 
 .visual-orbit {
     position: absolute;
-    border: 1px solid rgba(190, 255, 92, .15);
+    border: 1px solid var(--accent-border);
     border-radius: 50%;
     transform: rotate(-22deg);
 }
@@ -196,7 +196,7 @@
     width: 550px;
     height: 360px;
     transform: rotate(36deg);
-    border-color: rgba(255, 255, 255, .07);
+    border-color: var(--orbit-line);
 }
 
 .floating-card {
@@ -208,11 +208,11 @@
     padding: 13px 15px;
     border: 1px solid var(--line);
     border-radius: 10px;
-    background: rgba(19, 23, 31, .92);
-    color: #dfe2e8;
+    background: var(--hero-card-bg);
+    color: var(--text);
     font-size: .7rem;
     line-height: 1.5;
-    box-shadow: 0 15px 35px #0005;
+    box-shadow: var(--shadow);
 }
 
 .card-top {

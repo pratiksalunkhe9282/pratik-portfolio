@@ -36,7 +36,7 @@
     display: grid;
     place-items: center;
     color: var(--accent);
-    background: #1a2222;
+    background: var(--contact-icon-bg);
     border-radius: 8px;
 }
 
@@ -85,7 +85,7 @@
     padding: 30px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: #11151d;
+    background: var(--surface);
 }
 
 .form-heading {
@@ -106,7 +106,7 @@
 .contact-form label {
     display: block;
     margin: 17px 0;
-    color: #d7dbe2;
+    color: var(--copy-strong);
     font-size: .74rem;
     font-weight: 700;
 }
@@ -117,11 +117,11 @@
     display: block;
     margin-top: 9px;
     padding: 13px 14px;
-    border: 1px solid #2a303b;
+    border: 1px solid var(--line);
     border-radius: 6px;
     outline: none;
     color: var(--text);
-    background: #0c1016;
+    background: var(--field-bg);
     font: .8rem var(--sans);
     resize: vertical;
     transition: border .2s;
@@ -134,7 +134,7 @@
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #626a78;
+    color: var(--placeholder);
 }
 
 .form-submit {
@@ -144,7 +144,7 @@
 }
 
 .form-error {
-    color: #ff9b9b;
+    color: var(--error);
     font-size: .75rem;
 }
 
@@ -190,13 +190,13 @@
 }
 
 .form-error {
-  color: #ffb0b0;
-  background: rgba(255, 100, 100, 0.09);
-  border: 1px solid rgba(255, 100, 100, 0.25);
+  color: var(--error);
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
 }
 
 .form-success {
-  color: #9ce6bd;
-  background: rgba(80, 200, 130, 0.09);
-  border: 1px solid rgba(80, 200, 130, 0.25);
+  color: var(--success);
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
 }

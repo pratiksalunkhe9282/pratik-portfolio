@@ -11,7 +11,7 @@
 
 .about-copy p {
     margin: 0 0 26px;
-    color: #b1b6c2;
+    color: var(--copy);
     line-height: 1.95;
     font-size: 1rem;
 }
@@ -37,7 +37,7 @@
     padding: 22px 18px;
     border: 1px solid var(--line);
     border-radius: 10px;
-    background: linear-gradient(145deg, #151a22, #101319);
+    background: linear-gradient(145deg, var(--surface-raised), var(--surface));
 }
 
 .trait-card svg {

@@ -4,7 +4,7 @@
     overflow: hidden;
     border: 1px solid var(--line);
     border-radius: 14px;
-    background: #11151d;
+    background: var(--surface);
 }
 
 .project-art {
@@ -15,7 +15,7 @@
     justify-content: center;
     overflow: hidden;
     padding: 34px;
-    background: radial-gradient(ellipse at 48% 48%, rgba(190, 255, 92, .13), transparent 48%), linear-gradient(145deg, #1a2225, #11151c);
+    background: radial-gradient(ellipse at 48% 48%, rgba(var(--accent-rgb), .13), transparent 48%), var(--project-art-bg);
 }
 
 .project-art-top {
@@ -25,7 +25,7 @@
     right: 28px;
     display: flex;
     justify-content: space-between;
-    color: #a6b09d;
+    color: var(--label);
     font: .6rem var(--mono);
     letter-spacing: .12em;
 }
@@ -173,7 +173,7 @@
 .project-art-caption {
     position: absolute;
     bottom: 24px;
-    color: #9ba79d;
+    color: var(--caption);
     font: .58rem var(--mono);
     letter-spacing: .2em;
 }
@@ -207,7 +207,7 @@
     margin: 25px 0 18px;
     padding: 18px;
     border-left: 2px solid var(--accent);
-    background: #171d22;
+    background: var(--surface-raised);
 }
 
 .contribution span {
@@ -232,7 +232,7 @@
 .project-highlights li {
     display: flex;
     gap: 8px;
-    color: #c3c8d0;
+    color: var(--copy-soft);
     font-size: .7rem;
     line-height: 1.5;
 }
@@ -258,8 +258,8 @@
 
 .project-stack span {
     padding: 6px 8px;
-    background: #202630;
-    color: #bbc2cd;
+    background: var(--surface-chip);
+    color: var(--copy-muted);
     border-radius: 4px;
     font-size: .62rem;
 }

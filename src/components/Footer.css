@@ -1,7 +1,7 @@
 .footer {
     padding: 25px 0;
     border-top: 1px solid var(--line);
-    background: #090b10;
+    background: var(--footer-bg);
 }
 
 .footer-inner {
@@ -37,7 +37,7 @@
 
 .footer-copy {
     margin-left: auto;
-    color: #737b89;
+    color: var(--muted);
     font: .58rem var(--mono);
     letter-spacing: .08em;
 }

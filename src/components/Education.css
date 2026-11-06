@@ -6,7 +6,7 @@
     padding: 36px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: linear-gradient(110deg, #151b21, #11151c);
+    background: linear-gradient(110deg, var(--surface-raised), var(--surface));
     overflow: hidden;
 }
 
@@ -17,7 +17,7 @@
     display: grid;
     place-items: center;
     color: var(--accent);
-    background: rgba(190, 255, 92, .1);
+    background: var(--accent-soft);
     border-radius: 12px;
 }
 
@@ -35,7 +35,7 @@
 
 .education-content h4 {
     margin: 0;
-    color: #b7bdc7;
+    color: var(--copy);
     font-size: .88rem;
     font-weight: 500;
     line-height: 1.6;
@@ -63,7 +63,7 @@
 .education-stamp {
     margin-left: auto;
     padding: 13px 15px;
-    border: 1px solid rgba(190, 255, 92, .25);
+    border: 1px solid var(--accent-border);
     border-radius: 8px;
     color: var(--accent);
     font: 1.3rem var(--mono);
